@@ -22,7 +22,7 @@ You can install the required packages using pip:
 
 ```bash
 pip install langchain_astradb transformers langchain_openai langchain_core datasets
-
+```
 
 ## Dataset
 
