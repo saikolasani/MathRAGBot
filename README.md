@@ -22,3 +22,14 @@ You can install the required packages using pip:
 
 ```bash
 pip install langchain_astradb transformers langchain_openai langchain_core datasets
+
+
+## Dataset
+
+The code uses the `microsoft/orca-math-word-problems-200k` dataset from the Hugging Face `datasets` library. This dataset contains over 200,000 math word problems, which are used to demonstrate the capabilities of the retrieval-augmented generation system. You can modify the script to use any dataset of your choosing by replacing the dataset identifier with your preferred dataset available in the Hugging Face library.
+
+Example change to use a different dataset:
+
+```python
+# Replace the line below with the identifier of your chosen dataset
+orca_dataset = load_dataset("new_dataset_identifier", split='train')
