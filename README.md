@@ -66,6 +66,9 @@ Follow these steps to start the interactive chat:
 1. Ensure all dependencies are installed and your environment variables are set (as described in the **Requirements** section).
 2. Open the terminal or command prompt where your script is located.
 3. Execute the script using Python. For example:
-   ```bash
+```bash
    python astradbrag.py
+```
 
+### License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
