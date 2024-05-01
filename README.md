@@ -63,7 +63,7 @@ To engage with the interactive chat feature powered by the LLaMA 2 Chatbot, a se
 
 Follow these steps to start the interactive chat:
 
-1. Ensure all dependencies are installed and your environment variables are set (as described in the [Configuration](#configuration) section).
+1. Ensure all dependencies are installed and your environment variables are set (as described in the #Requirements section).
 2. Open the terminal or command prompt where your script is located.
 3. Execute the script using Python. For example:
    ```bash
