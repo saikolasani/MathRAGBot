@@ -39,10 +39,10 @@ vstore = AstraDBVectorStore(
     api_endpoint=os.environ["ASTRA_DB_API_ENDPOINT"],
 )
 
-orca_dataset = load_dataset("microsoft/orca-math-word-problems-200k", split='train')
+dataset = load_dataset("microsoft/orca-math-word-problems-200k", split='train')
 
 docs = []
-for entry in orca_dataset:
+for entry in dataset:
     # Add a LangChain document with the answer and metadata tags
     content = f"Question: {entry['question']}\nAnswer: {entry['answer']}"
     doc = Document(page_content=content, metadata={"answer": entry["answer"]})
