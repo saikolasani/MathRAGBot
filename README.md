@@ -57,7 +57,7 @@ LLaMA 2 Chatbot: The difference between the largest and smallest four-digit numb
 
 ### Running the Interactive Chat in the Notebook
 
-To engage with the interactive chat feature powered by the LLaMA 2 Chatbot, you can easily initiate a session by running the `interactive_chat()` function provided in the code. This function activates the chatbot, which can then respond to your queries, particularly useful for solving math problems or exploring dataset content interactively.
+To engage with the interactive chat feature powered by the LLaMA 2 Chatbot, a session can be initiated by running the `interactive_chat()` function provided in the code. This function activates the chatbot, which can then respond to your queries, particularly useful for solving math problems or exploring dataset content interactively.
 
 ### How to Run the Interactive Chat Locally
 
