@@ -55,7 +55,7 @@ You: What is the difference between the largest number and the smallest number t
 LLaMA 2 Chatbot: The difference between the largest and smallest four-digit numbers that can be made by selecting four from t
 ```
 
-## Running the Interactive Chat in the Notebook
+### Running the Interactive Chat in the Notebook
 
 To engage with the interactive chat feature powered by the LLaMA 2 Chatbot, you can easily initiate a session by running the `interactive_chat()` function provided in the code. This function activates the chatbot, which can then respond to your queries, particularly useful for solving math problems or exploring dataset content interactively.
 
